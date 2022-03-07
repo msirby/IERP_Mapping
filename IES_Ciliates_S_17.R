@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #Saving to GitHub repository
+=======
+>>>>>>> ec05930e3c663bc3c1837ea4682ece76aa37a4db
 ipak <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if (length(new.pkg))
